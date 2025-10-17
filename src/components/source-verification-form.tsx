@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect, useRef } from 'react';
+import { useActionState, useEffect, useRef } from 'react';
+import { useFormStatus } from 'react-dom';
 import { handleSourceVerification, SourceVerificationState } from '@/app/actions';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -28,7 +28,7 @@ function SubmitButton() {
 }
 
 export default function SourceVerificationForm() {
-  const [state, formAction] = useFormState(handleSourceVerification, initialState);
+  const [state, formAction] = useActionState(handleSourceVerification, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
