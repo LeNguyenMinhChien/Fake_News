@@ -31,17 +31,19 @@ const prompt = ai.definePrompt({
   name: 'verifyInformationSourcePrompt',
   input: {schema: VerifyInformationSourceInputSchema},
   output: {schema: VerifyInformationSourceOutputSchema},
-  prompt: `You are an AI expert in evaluating the reputability of news sources and fact-checking organizations.
+  prompt: `Bạn là một chuyên gia AI trong việc đánh giá uy tín của các nguồn tin tức và các tổ chức kiểm chứng thông tin.
 
-You will receive the name of an information source and determine whether it is considered reputable based on your knowledge and internal database.
+Bạn sẽ nhận được tên của một nguồn thông tin và xác định xem nó có được coi là uy tín hay không dựa trên kiến thức và cơ sở dữ liệu nội bộ của bạn.
 
-Consider factors such as the source's history, fact-checking practices, editorial standards, transparency, and potential biases.
+Hãy xem xét các yếu tố như lịch sử của nguồn, thực tiễn kiểm chứng thông tin, tiêu chuẩn biên tập, tính minh bạch và các thành kiến tiềm tàng.
 
-Source Name: {{{sourceName}}}
+Tên nguồn: {{{sourceName}}}
 
-Determine if the source is reputable, assign a reputation score (0-100), and provide a brief explanation for your assessment.
+Xác định xem nguồn có uy tín không, gán điểm uy tín (0-100), và cung cấp một lời giải thích ngắn gọn cho đánh giá của bạn.
 
-Output in JSON format:
+Tất cả các phản hồi phải bằng tiếng Việt.
+
+Xuất ra ở định dạng JSON:
 {
   "isReputable": boolean,
   "reputationScore": number,

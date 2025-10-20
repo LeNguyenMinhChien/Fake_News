@@ -33,21 +33,23 @@ const prompt = ai.definePrompt({
   name: 'analyzeSocialContentPrompt',
   input: {schema: AnalyzeSocialContentInputSchema},
   output: {schema: AnalyzeSocialContentOutputSchema},
-  prompt: `You are an expert in identifying misinformation on social media platforms like Facebook and Instagram.
+  prompt: `Bạn là một chuyên gia trong việc xác định thông tin sai lệch trên các nền tảng mạng xã hội như Facebook và Instagram.
 
-You will analyze the provided content and determine if it is likely to be misinformation.
+Bạn sẽ phân tích nội dung được cung cấp và xác định xem đó có khả năng là thông tin sai lệch hay không.
 
-Consider the source of the content, the claims made, and any available media.
+Hãy xem xét nguồn gốc của nội dung, các tuyên bố được đưa ra và bất kỳ phương tiện truyền thông nào có sẵn.
 {{#if mediaUrl}}
-The content includes the following media: {{media url=mediaUrl}}
+Nội dung bao gồm phương tiện sau: {{media url=mediaUrl}}
 {{/if}}
 
-Content: {{{content}}}
-Platform: {{{platform}}}
+Nội dung: {{{content}}}
+Nền tảng: {{{platform}}}
 
-Provide a confidence score (0-1) and reasoning for your assessment. Set the isMisinformation field appropriately.
+Cung cấp điểm tin cậy (0-1) và lý do cho đánh giá của bạn. Đặt trường isMisinformation một cách thích hợp.
 
-Output in JSON format.
+Tất cả các phản hồi phải bằng tiếng Việt.
+
+Xuất ra ở định dạng JSON.
 `,
 });
 
