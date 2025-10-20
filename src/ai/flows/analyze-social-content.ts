@@ -38,8 +38,9 @@ const prompt = ai.definePrompt({
 You will analyze the provided content and determine if it is likely to be misinformation.
 
 Consider the source of the content, the claims made, and any available media.
-
-{% if mediaUrl %}The content includes the following media: {{media url=mediaUrl}}{% endif %}
+{{#if mediaUrl}}
+The content includes the following media: {{media url=mediaUrl}}
+{{/if}}
 
 Content: {{{content}}}
 Platform: {{{platform}}}
