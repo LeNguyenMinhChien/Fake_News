@@ -42,8 +42,10 @@ Cách thực hiện:
 <img width="602" height="251" alt="image" src="https://github.com/user-attachments/assets/92d07ab7-ecc8-4dbe-9e28-6283d608b80d" />
 2.  **Nhập tên nguồn tin:** Gõ tên của hãng tin muốn kiểm tra vào ô "Tên Nguồn tin" (ví dụ: BBC News, Reuters, VnExpress...).
 <img width="602" height="236" alt="image" src="https://github.com/user-attachments/assets/b4981319-61ca-4539-b2c4-224abedb6f48" />
-3.  **Nhấn nút "Xác minh".**
+
+4.  **Nhấn nút "Xác minh".**
 Kết quả trả về sẽ bao gồm:
+
 <img width="602" height="261" alt="image" src="https://github.com/user-attachments/assets/1dde4358-3d01-467f-94af-61422a8104d3" />
 
 *   **Đánh giá uy tín:** Uy tín, không đáng tin cậy hoặc hỗn hợp.
