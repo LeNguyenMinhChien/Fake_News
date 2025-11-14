@@ -7,7 +7,7 @@
     
     <img width="602" height="417" alt="image" src="https://github.com/user-attachments/assets/ce2a8d24-b060-42f8-8db6-7ab56ced30b9" />
 
-3.  **Xác minh Nguồn**
+2.  **Xác minh Nguồn**
     Tương tự với phân tích nội dung, tính năng này cho phép người dùng kiểm tra các nguồn tin khác nhau, để từ đó đánh giá độ tin cậy.
     
     <img width="563" height="233" alt="image" src="https://github.com/user-attachments/assets/1805fce7-537e-43b8-9422-b611adc44e77" />
@@ -52,7 +52,7 @@ Cách thực hiện:
 <img width="602" height="236" alt="image" src="https://github.com/user-attachments/assets/b4981319-61ca-4539-b2c4-224abedb6f48" />
 
 
-4.  **Nhấn nút "Xác minh".**
+3.  **Nhấn nút "Xác minh".**
 Kết quả trả về sẽ bao gồm:
 
 <img width="602" height="261" alt="image" src="https://github.com/user-attachments/assets/1dde4358-3d01-467f-94af-61422a8104d3" />
