@@ -22,6 +22,7 @@ Cách thực hiện:
 1.  **Mở tab "Phân tích Nội dung".**
     
 <img width="602" height="413" alt="image" src="https://github.com/user-attachments/assets/de7af250-06bf-4a6c-8da9-d51d0f2ac3d5" />
+ 
  *Dán nội dung:** Sao chép văn bản từ bài đăng cần kiểm tra và dán vào ô "Nội dung".
  
 3.  **Chọn nền tảng:** Chọn nơi bạn thấy bài đăng (Facebook, Instagram hoặc Khác).
