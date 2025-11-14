@@ -25,13 +25,13 @@ Cách thực hiện:
  
  *Dán nội dung:** Sao chép văn bản từ bài đăng cần kiểm tra và dán vào ô "Nội dung".
  
-3.  **Chọn nền tảng:** Chọn nơi bạn thấy bài đăng (Facebook, Instagram hoặc Khác).
+2.  **Chọn nền tảng:** Chọn nơi bạn thấy bài đăng (Facebook, Instagram hoặc Khác).
 <img width="366" height="187" alt="image" src="https://github.com/user-attachments/assets/b12b6af2-0946-43e8-a72f-17ef364e11a2" />
 
-4.  **Đính kèm hình ảnh (tùy chọn):** Nếu bài đăng có hình ảnh, có thể tải lên để AI phân tích cùng văn bản. Đây là bước không bắt buộc.
+3.  **Đính kèm hình ảnh (tùy chọn):** Nếu bài đăng có hình ảnh, có thể tải lên để AI phân tích cùng văn bản. Đây là bước không bắt buộc.
    <img width="351" height="83" alt="image" src="https://github.com/user-attachments/assets/cadc9b9b-45b2-485f-a80e-924ec11fa624" />
    
-5.  **Nhấn nút "Phân tích".**
+4.  **Nhấn nút "Phân tích".**
 Kết quả trả về sẽ bao gồm:
 <img width="588" height="354" alt="image" src="https://github.com/user-attachments/assets/08d11db6-7e56-478d-b9eb-ac21b0f9106f" />
 
